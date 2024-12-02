@@ -11,6 +11,6 @@ jobs:
 
     steps:
       - name: Checkout Repository
-        uses: actions/setup-python@v3.10
+        uses: actions/setup-python@v3
     # runs:
     #   - python ../../assignments/exercise-2/main.py
