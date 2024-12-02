@@ -1,0 +1,16 @@
+name: Python application
+
+on:
+  push:
+    branches:
+      - dev
+
+jobs:
+  build-and-deploy:
+    runs-on: self-hosted
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/setup-python@v3.10
+    runs:
+      - python ../../assignments/exercise-2/main.py
